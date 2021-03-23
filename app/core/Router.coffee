@@ -420,7 +420,8 @@ module.exports = class CocoRouter extends Backbone.Router
     return unless manualView
     if e.viewClass
       args = e.viewArgs or []
-      view = new e.viewClass(args...)
+      Klass = if e.viewClass.default then e.viewClass.default else e.viewClass
+      view = new Klass(args...)
       view.render()
       @openView view
       @viewLoad.setView(view)
