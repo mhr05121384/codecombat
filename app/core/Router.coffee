@@ -330,7 +330,8 @@ module.exports = class CocoRouter extends Backbone.Router
         vueComponentView = require 'views/core/VueComponentView'
         view = new vueComponentView(ViewClass.default, options, args...)
       else
-        view = new ViewClass.default(options, args...)  # options, then any path fragment args
+        Klass = if ViewClass.default then ViewClass.default else ViewClass
+        view = new Klass(options, args...)  # options, then any path fragment args
 
       view.render()
 
