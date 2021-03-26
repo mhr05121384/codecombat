@@ -183,7 +183,10 @@
     "copy-webpack-plugin": "^4.0.1",
     "webpack-livereload-plugin": "github:codecombat/webpack-livereload-plugin#master",
     "vue-loader": "^15.x.x",
-    "worker-loader": "^1.1.1"
+    "worker-loader": "^1.1.1",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.3.0",
+    "pug-plain-loader": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -237,9 +240,6 @@
     "nodemon": "1.6.1",
     "parse-domain": "^0.2.1",
     "pg": "^6.1.2",
-    "pug": "^2.0.3",
-    "pug-loader": "^2.3.0",
-    "pug-plain-loader": "^1.0.0",
     "raw-loader": "^0.5.1",
     "recursive-readdir-sync": "^1.0.6",
     "requirejs": "~2.1.10",
