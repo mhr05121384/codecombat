@@ -186,7 +186,8 @@
     "worker-loader": "^1.1.1",
     "pug": "^2.0.3",
     "pug-loader": "^2.3.0",
-    "pug-plain-loader": "^1.0.0"
+    "pug-plain-loader": "^1.0.0",
+    "vue-template-compiler": "^2.6.10"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -244,8 +245,7 @@
     "recursive-readdir-sync": "^1.0.6",
     "requirejs": "~2.1.10",
     "sass-loader": "^6.0.6",
-    "standard": "^12.0.1",
-    "vue-template-compiler": "^2.6.10"
+    "standard": "^12.0.1"
   },
   "optionalDependencies": {},
   "license": "MIT for the code, and CC-BY for the art and music",
